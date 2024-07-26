@@ -1,9 +1,12 @@
-import { Thread } from "@assistant-ui/react";
-
+import { AssistantSidebar } from "@/components/ui/assistant-ui/assistant-sidebar";
+import { Thread } from "@/components/ui/assistant-ui/thread";
+ 
+ 
 export default function Home() {
   return (
-    <main className="h-full">
+    <div className="h-full">
+      <AssistantSidebar>{/* Xeonic AI */}</AssistantSidebar>
       <Thread />
-    </main>
+    </div>
   );
 }
