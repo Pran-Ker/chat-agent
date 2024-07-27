@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className="h-full">
       <AssistantSidebar>{/* Xeonic AI */}</AssistantSidebar>
-      <Thread />
     </div>
   );
 }
